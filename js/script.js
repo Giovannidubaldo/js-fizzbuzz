@@ -7,7 +7,7 @@ for(let i=1; i<=100; i++){
     if(i%3 == 0 && i%5 ==0){
         let i = 'FizzBuzz';
         console.log(i);
-        let li = `<li id="item-${i}">${i}</li>`;
+        let li = `<li id="item-${i}" class="green">${i}</li>`;
         list.innerHTML += li;
     }
 
@@ -15,7 +15,7 @@ for(let i=1; i<=100; i++){
     else if(i%5 == 0){
         let i = 'Buzz';
         console.log(i);
-        let li = `<li id="item-${i}">${i}</li>`;
+        let li = `<li id="item-${i}" class="red">${i}</li>`;
         list.innerHTML += li;
     }
     
@@ -23,7 +23,7 @@ for(let i=1; i<=100; i++){
     else if(i%3 == 0){
         let i = 'Fizz';
         console.log(i);
-        let li = `<li id="item-${i}">${i}</li>`;
+        let li = `<li id="item-${i}" class="blue">${i}</li>`;
         list.innerHTML += li;
     }
 
