@@ -9,8 +9,7 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione `appendChild()` 
 
 PROBLEMA :
 
-1 - creare un for;
-2 - il for comprenderà i numeri che vanno da 1 a 100;
+1 - creare un for: il for comprenderà i numeri che vanno da 1 a 100;
 2 - stampa in console;
     2.1 - ? il numero è multiplo di 3 e anche multiplo di 5;
         3 - stampa "FizzBuzz"
